@@ -1,0 +1,51 @@
+.card-container{
+    position: relative;;
+    width: 340px;
+    height: 189px;
+    padding: 1.8em 2.3em;
+    background-image: url('./../../assets/creditcardbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+    border-radius: 6px;
+    border-right: 2px solid #797979;
+    border-bottom: 2px solid #3f3f3f;
+    box-shadow: 10px 10px 23px 5px rgba(0, 0, 0, 0.29);
+}
+
+/* .card-container{
+    position: relative;;
+    width: 340px;
+    height: 189px;
+    padding: 1.8em 2.3em;
+    background-color: #161616;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 3px rgba(14, 14, 14, 0.5);
+} */
+
+
+.card-title {
+    text-align: end;
+    font-weight: 600; 
+    text-transform: uppercase;   
+}
+
+.card-number {
+    font-size: 18px;
+    font-family: 'Monda', sans-serif;
+    color: #FDBE43;
+}
+
+.card-exp-date, .card-holder-name,.card-number {
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.card-provider-name {
+    position: absolute;
+    bottom: 1.8em;
+    right: 2.3em;
+    font-weight: 600;
+}

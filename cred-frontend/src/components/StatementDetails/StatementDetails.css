@@ -1,0 +1,44 @@
+#statement-details-card{
+    width:max-content;
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+#statement-details-card-heading{
+    font-size: 15px;
+    font-weight: 700;
+    color: #1E89FD;
+}
+
+#statement-details-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    padding-top: 30px;
+}
+
+.statement-info-heading{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7c7c7c;
+}
+
+.sihr, .sivr{
+    text-align: right;
+}
+
+.statement-info-value{
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.paid{
+    color: #2DB73B;
+}
+
+.unpaid{
+    color:#e44100
+}

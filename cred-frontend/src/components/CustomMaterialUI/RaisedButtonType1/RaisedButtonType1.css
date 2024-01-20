@@ -1,0 +1,13 @@
+.raised-btn-type1 {
+    background: #006DD2;
+    border: 6px solid rgb(37,37,37);
+    border-radius: 50px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.30), -4px -4px 11px rgba(101, 101, 101, 0.30);
+    padding: 8px 49.3px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+}

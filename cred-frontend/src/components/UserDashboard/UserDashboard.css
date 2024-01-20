@@ -1,0 +1,50 @@
+.card-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    gap: 90px;
+    width: max-content;
+}
+
+.dashboard-container{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+#your-cards{
+   font-weight: 700;
+   font-size: 20px;
+   color: #cecece;
+}
+
+#user-cards-container{
+    margin-top: 50px;
+}
+
+#top-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#no-cards-msg{
+    font-size: 18px;
+    font-weight: 600;
+    color: #cecece;
+}
+
+#payment-window-wrapper{
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(60, 60, 60, 0.51);
+    backdrop-filter: blur(15px);
+}

@@ -1,0 +1,144 @@
+#payment-page{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(60, 60, 60, 0.51);
+    backdrop-filter: blur(15px);
+}
+
+#payment-window{
+    width: 47%;
+    background-color: #1C1C1C;
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.35);
+}
+
+#payment-window-heading{
+    font-size: 21px;
+    color: #5a5a5a;
+    font-weight: 700;
+}
+
+#payment-window-body{
+    position: relative;
+}
+
+#err-msg{
+    color: #FDBE43;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#payment-window-body #payment-sucess{
+    position: absolute;
+    inset: 0;
+    width: 105%;
+    height: 106%;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#payment-successful-text{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#payment-window-main-section{
+    display: flex;
+    margin-top: 15px;
+}
+
+#payment-window-left-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #444444;
+    /* background-color: aqua; */
+}
+
+#payment-window-main-section label{
+    font-size: 13px;
+    font-weight: 600;
+    color: #767676;
+}
+
+#total-due-amount{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDBE43;
+    margin-top: 5px;
+    animation: total-due-animation 1.5s linear infinite alternate;
+}
+
+#payment-window-right-section{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    /* background-color: brown; */
+}
+
+#payment-window-right-section p{
+    font-size: 16x;
+    font-weight: 600;
+    color: #cecece;
+    margin-top: 5px;
+}
+
+#payable-amount-label{
+    margin-top: 20px;
+}
+
+#payable-amount input{
+    width: 1ch;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #cecece;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0em 0.5em;
+    box-sizing: content-box;
+}
+
+#payable-amount input::-webkit-inner-spin-button,
+#payable-amount input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+#payment-window-btn-grp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* background-color: #FDBE43; */
+}
+
+@keyframes total-due-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+
+
+

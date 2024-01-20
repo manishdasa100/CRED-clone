@@ -1,0 +1,70 @@
+.card-summary-container{
+    height: 189px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 100px;
+    /* background-color: blue; */
+}
+
+.btn-grp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.btn-grp a{
+    text-decoration: none;
+}
+
+.summary{
+    font-size: 17px;
+    font-weight: 600;
+    /* color: #2AA57F; */
+    color: #1db988;
+    margin-bottom: 20px;
+}
+
+.card-info-group{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.card-balance, .total-due, .due-date{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.card-balance, .total-due{
+    color: white;
+}
+
+.due-date{
+    /* color: #FFC700; */
+    color: #ffac5f;
+}
+
+.fully-paid{
+    width: max-content;
+    padding-left: 10px;
+    /* background-color: #2AA57F; */
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    align-self: center;
+}
+
+.fully-paid::before{
+    content: '';
+    background-image:url(../../assets/success-symbol-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -16px;
+}

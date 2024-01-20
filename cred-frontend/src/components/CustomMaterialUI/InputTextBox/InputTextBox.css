@@ -1,0 +1,40 @@
+.input-textbox {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    /* background-color: aqua; */
+}
+
+.input-textbox input{
+    border: 1px solid white;
+    outline: none;
+    width: 300px;
+    border-radius: 50px;
+    padding: 14px 17px 14px 20px;
+    background: transparent;
+    font-size: 13px;
+    color: white;
+    /* background-color: rgb(202, 202, 202); */
+}
+
+.placeholder {
+    position: absolute;
+    left: 20px;
+    top: calc(50% + 5px);
+    transform: translateY(-50%);
+    color: #2596FF;
+    font-size: 13px;
+    padding: 2px 0px 2px 0px;
+    transition: top 0.3s ease, font-size 0.3s ease;
+}
+
+.input-textbox input:valid + .placeholder,
+.input-textbox input:focus + .placeholder {
+    top: 10px;
+    font-size: 10px;
+    background-color: #232323;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 600;
+}
